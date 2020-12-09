@@ -1,4 +1,4 @@
-### Hoi! Gozaimasu!👋🏻
+# Hoi! Gozaimasu!👋🏻
 ![ProfilePic](https://raw.githubusercontent.com/ayush7788/ayush7788/main/IMG-20201209-WA0085.jpg)
 ### Me 😉
 Ayush Yadav, aka CLAW, from India here! 
@@ -15,7 +15,7 @@ And I love developing softwares for it too.
 - [Universal Package Manager](https://github.com/ayush7788/upm)
 - [Marks Organiser](https://github.com/ayush7788/marko)
 
-# Extras
+#### Extras
 - 📫 Contact me at: ayush7788899@gmail.com
 - 💬 Ask me about: C/C++ Development, GNU/Linux
 <!--
