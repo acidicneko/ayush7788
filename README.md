@@ -13,7 +13,7 @@ And I love developing softwares for it too.
 ### My Works 🔧
 - [Simple Command Helper](https://github.com/ayush7788/sch)
 - [Universal Package Manager](https://github.com/ayush7788/upm)
-- [Marks Organiser](https://github.com/ayush7788/marko)
+- [Encoder](https://github.com/ayush7788/enc)
 
 #### Extras
 - 📫 Contact me at: ayush7788899@gmail.com
