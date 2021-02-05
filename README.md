@@ -8,9 +8,10 @@ And I love developing softwares for it too.
 ## Milestones 🔷
 - I use Arch BTW!
 - Always been learning C/C++ (no one can truly expertise in them completely)
-- Developing my own Kernel (hope will be able to post source on GitHub)
+- Developing my own Kernel
 
 ### My Works 🔧
+- [Wolf X Kernel](https://github.com/ayush7788/wolfx_kernel)
 - [Simple Command Helper](https://github.com/ayush7788/sch)
 - [Universal Package Manager](https://github.com/ayush7788/upm)
 - [Encoder](https://github.com/ayush7788/encoder)
