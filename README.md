@@ -11,7 +11,7 @@ And I love developing softwares for it too.
 - Developing my own Kernel
 
 ### My Works 🔧
-- [Wolf X Kernel](https://github.com/ayush7788/wolfx_kernel)
+- [Discitix Kernel](https://github.com/ayush7788/discitix_kernel)
 - [Simple Command Helper](https://github.com/ayush7788/sch)
 - [Universal Package Manager](https://github.com/ayush7788/upm)
 - [Encoder](https://github.com/ayush7788/encoder)
