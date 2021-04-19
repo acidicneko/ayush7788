@@ -1,3 +1,4 @@
+#!/bin/bash
 echo Welcome to Claw\'s Arch Install Script
 
 if [[ $# -eq 0 ]] ; then
