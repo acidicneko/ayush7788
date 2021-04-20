@@ -2,9 +2,9 @@ echo Welcome to Claw\'s Arch Install Script
 
 if [[ $# -eq 0 ]] ; then
 	echo Checking network connectivity...
-	ping 5 archlinux.org
+	ping -c 3 archlinux.org
 
-	if [[ $? -eq 0 ]] ; then
+	if [[ $? -eq 1 ]] ; then
 		echo Please connect to network
 		exit 1
 	fi
@@ -58,11 +58,11 @@ if [[ $# -eq 0 ]] ; then
 	echo Generating fstab...
 	genfstab -U /mnt >> /mnt/etc/fstab
 
-	cp arch-install.sh /mnt/arch-install.sh
+	cp arch_install.sh /mnt/arch_install.sh
 	cp config.sh /mnt/config.sh
 	
 	echo Changing root to /mnt...
-	arch-chroot /mnt ./arch-install.sh chroot
+	arch-chroot /mnt ./arch_install.sh chroot
 fi
 
 if [[ "$1" = "chroot" ]] ; then
