@@ -19,7 +19,7 @@ And I love developing softwares for it too.
 
 Please do note that my script is only for UEFI systems!
 Also it doesn't make partitions on its own! So please make your partitions before running script!
-It currently only supports ext4, if you want to you any other filesystem, please format partitions with your choice of FileSystem and 
+It currently only supports ext4, if you want to use any other filesystem, please format partitions with your choice of FileSystem and 
 choose "no" when asked to format as ext4 in script.
 
 ```
