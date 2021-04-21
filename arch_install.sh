@@ -73,7 +73,7 @@ if [[ "$1" = "chroot" ]] ; then
 
 	echo Localization...
 	echo LANG=en_US.UTF-8 >> /etc/locale.conf
-	echo en_US.UTF-8 UTF-8 >> /etc/locale.gen
+	echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 
 	locale-gen
 
@@ -98,7 +98,6 @@ if [[ "$1" = "chroot" ]] ; then
 	grub-mkconfig -o /boot/grub/grub.cfg
 	
 	echo Configuring additional settings...
-	systemctl enable sudo
 	systemctl enable NetworkManager
 	
 	printf "\e[1;37mArch Linux installed! Please unmount all partitions and reboot...\e[0m"
