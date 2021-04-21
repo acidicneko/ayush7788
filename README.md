@@ -15,7 +15,7 @@ And I love developing softwares for it too.
 - [Simple Command Helper](https://github.com/ayush7788/sch)
 - [Universal Package Manager](https://github.com/ayush7788/upm)
 - [Encoder](https://github.com/ayush7788/encoder)
-- [Arch Install Script](https://github.com/ayush7788/ayush7788/blob/main/arch_install.sh]
+- [Arch Install Script](https://github.com/ayush7788/ayush7788/blob/main/arch_install.sh)
 
 Please do note that my script is only for UEFI systems!
 Also it doesn't make partitions on its own! So please make your partitions before running script!
