@@ -1,6 +1,4 @@
 # Hoi! Gozaimasu!👋🏻
-![ProfilePic](https://raw.githubusercontent.com/ayush7788/ayush7788/main/IMG-20201209-WA0085.jpg)
-### Me 😉
 Ayush Yadav, aka CLAW, from India here! 
 I love Linux (I would like to interject fo....).
 And I love developing softwares for it too.
