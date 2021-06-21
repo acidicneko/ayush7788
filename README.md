@@ -28,5 +28,5 @@ chmod +x arch_install.sh
 UwU
 
 #### Extras
-- 📫 Contact me at: ayush7788899@gmail.com, Discord: i happy#0798
+- 📫 Contact me at: ayush7788899@gmail.com, Discord: clawbhaiya#6969
 - 💬 Ask me about: C/C++ Development, GNU/Linux
