@@ -53,7 +53,7 @@ if [[ $# -eq 0 ]] ; then
 	swapon $SWAP
 
 	echo Installing base system to $ROOT...
-	pacstrap /mnt base base-devel linux linux-firmware vim grub os-prober ntfs-3g sudo efibootmgr networkmanager
+	pacstrap /mnt base base-devel linux linux-firmware vim grub os-prober ntfs-3g sudo efibootmgr networkmanager pipewire pipewire-pulse pipewire-alsa
 
 	echo Generating fstab...
 	genfstab -U /mnt >> /mnt/etc/fstab
@@ -99,6 +99,14 @@ if [[ "$1" = "chroot" ]] ; then
 	
 	echo Configuring additional settings...
 	systemctl enable NetworkManager
+	systemctl enable pipewire-pulse
+	
+	read -p "Would you like to install anything else? " PACKAGES
+	pacman -S $PACKAGES
+	
+	exit
+	umount /mnt
+	reboot
 	
 	printf "\e[1;37mArch Linux installed! Please unmount all partitions and reboot...\e[0m"
 fi
