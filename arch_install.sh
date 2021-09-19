@@ -101,8 +101,13 @@ if [[ "$1" = "chroot" ]] ; then
 	systemctl enable NetworkManager
 	systemctl enable pipewire-pulse
 	
-	read -p "Would you like to install anything else? " PACKAGES
-	pacman -S $PACKAGES
+	run = "True"
+	while [ $run == "True"]
+	do
+		read -p "Would you like to install anything else? " PACKAGES
+		pacman -Q $PACKAGES || printf "Please try again \n"
+		pacman -Q PACKAGES && pacman -S $PACKAGES && run = "False"
+		
 	
 	exit
 	umount /mnt
